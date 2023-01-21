@@ -7,6 +7,7 @@
 body {
   background-color: #09090a;
   color: white;
+
   height: 100vh;
 }
 
@@ -15,7 +16,7 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  padding: 48px; /* preenchimento*/
+  padding: 48px;
 
   position: fixed;
   width: 100%;
@@ -24,7 +25,6 @@ header {
 
 button {
   padding: 16px 24px;
-  /* 16 em cima, baixo/ 24 dos lados*/
   border-radius: 8px;
   border: 1px solid #8b5cf6;
   background-color: transparent;
@@ -49,11 +49,10 @@ button {
 
 .habits {
   margin-top: 60px;
-
-  display: flex; /*um do lado do outro*/
+  display: flex;
   flex-direction: column;
 
-  gap: 24px; /*espaço entre eles*/
+  gap: 24px;
 }
 
 .habit {
@@ -87,14 +86,16 @@ button {
   line-height: 125%;
 
   color: #a1a1aa;
+
+  text-align: center;
 }
 
 input {
   appearance: none;
   -webkit-appearance: none;
 
-  width: 64px; /* largura*/
-  height: 64px; /* altura*/
+  width: 64px;
+  height: 64px;
 
   border: 2px solid #27272a;
   border-radius: 8px;
@@ -102,7 +103,6 @@ input {
   background: #18181b;
 }
 
-/*PSEUDO-SELECTOR ":" */
 input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bfa;
